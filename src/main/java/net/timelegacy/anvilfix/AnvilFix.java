@@ -13,6 +13,7 @@ public class AnvilFix extends JavaPlugin {
         // Load the logging setting
         loggingEnabled = getConfig().getBoolean("enable-logging", true);
 
+        // Register the event listener
         getServer().getPluginManager().registerEvents(new AnvilListener(this), this);
 
         getLogger().info("Anvilfix has been enabled!");
