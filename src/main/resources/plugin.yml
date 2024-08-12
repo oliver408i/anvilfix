@@ -1,0 +1,5 @@
+name: AnvilFix
+version: 1.0
+main: net.timelegacy.anvilfix.main
+api-version: 1.20
+description: Allows illegal enchantments on anvils
